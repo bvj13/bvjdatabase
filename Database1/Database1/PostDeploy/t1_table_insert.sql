@@ -1,0 +1,1 @@
+﻿INSERT INTO T1 VALUES (1)

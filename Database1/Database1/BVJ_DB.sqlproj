@@ -59,6 +59,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="PostDeploy" />
+    <Folder Include="Pre Deploy" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\emp.sql" />
@@ -66,5 +68,15 @@
     <Build Include="Tables\dept.sql" />
     <Build Include="Tables\t10.sql" />
     <Build Include="Tables\t100.sql" />
+    <None Include="PostDeploy\dept_table_insert.sql" />
+    <None Include="PostDeploy\t1_table_insert.sql" />
+    <None Include="PostDeploy\t10_table_insert.sql" />
+    <None Include="PostDeploy\t100_table_insert.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeploy\Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PostDeploy\emp_table_insert.sql" />
   </ItemGroup>
 </Project>
