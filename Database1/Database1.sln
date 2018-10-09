@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BVJ_DB", "Database1\BVJ_DB.sqlproj", "{C16F4192-6942-4073-9D77-FE4060081F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16F4192-6942-4073-9D77-FE4060081F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16F4192-6942-4073-9D77-FE4060081F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16F4192-6942-4073-9D77-FE4060081F05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C16F4192-6942-4073-9D77-FE4060081F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16F4192-6942-4073-9D77-FE4060081F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16F4192-6942-4073-9D77-FE4060081F05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
