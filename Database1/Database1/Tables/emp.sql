@@ -6,5 +6,6 @@
         HIREDATE DATETIME,
         SAL int,
         COMM int,
-        DEPTNO int);
+        DEPTNO int, 
+    [YEARS_OF_EXPERIENCE] INT NULL);
 
